@@ -1,0 +1,54 @@
+.static-div {
+    width: 150px;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.relative-div-1 {
+    width: 150px;
+    height: 90px;
+    background-color: darkred;
+    color: white;
+    position: relative;
+    margin-bottom: -25px;
+}
+
+.relative-div-2 {
+    width: 150px;
+    height: 90px;
+    background-color: peru;
+    color: white;
+    position: relative;
+    margin-bottom: 20px;
+    left: 30px;
+}
+
+.relative-div-3 {
+    width: 600px;
+    height: 400px;
+    background-color: indianred;
+    color: white;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.absolute-div {
+    width: 300px;
+    height: 200px;
+    background-color: blueviolet;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 300px;
+}
+
+.fixed-div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
