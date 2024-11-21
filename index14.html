@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Web lab 2.14</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid green;
+            background-color: aqua;
+            
+        }
+
+        .sidebar {
+            width: 200px;
+            flex-shrink: 0;
+            width: 200px;
+            float: left;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+
+        .menu {
+            background-color: bisque;
+            height: 100px;
+            overflow-y: auto;
+        }
+
+        .content {
+            flex: 1;
+            background-color: darkgray;
+            padding: 10px;
+            min-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Hours</li>
+                    <li>Direction</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis libero lacinia, dictum nulla quis, lobortis turpis. Quisque auctor porta convallis. Proin vulputate placerat lectus et imperdiet. Donec pulvinar tempor posuere. Fusce nibh dolor, ornare vel egestas in, condimentum vel mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac eleifend dui. Praesent malesuada sagittis odio vitae gravida. Donec sodales diam turpis, sed blandit ante bibendum sed. Vestibulum feugiat lectus a felis porttitor, id cursus purus ultricies. Nulla molestie pulvinar ipsum, eget fermentum urna ullamcorper non. In lacinia nisi at elit efficitur, ut congue nulla tempus. Donec et urna varius, efficitur felis at, blandit elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin quis convallis nibh, eget interdum turpis. Maecenas malesuada erat dictum felis ornare, id egestas augue mattis. Vivamus neque sapien, blandit nec accumsan in, lobortis faucibus quam.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
